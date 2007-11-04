@@ -1,0 +1,16 @@
+--- #YAML:1.0
+name:                Email-Send-Gmail
+version:             0.31
+abstract:            ~
+license:             ~
+generated_by:        ExtUtils::MakeMaker version 6.32
+distribution_type:   module
+requires:     
+    Email::Address:                0
+    Email::Send:                   0
+    Net::SMTP::SSL:                0
+meta-spec:
+    url:     http://module-build.sourceforge.net/META-spec-v1.2.html
+    version: 1.2
+author:
+    - Leon Brocard <acme@astray.com>
