@@ -11,6 +11,7 @@ WriteMakefile(
         'Email::Send'    => '0',
         'Email::Address' => '0',
         'Net::SMTP::SSL' => '0',
+        'Authen::SASL'   => '0',
     },
 );
 

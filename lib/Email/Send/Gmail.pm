@@ -5,7 +5,7 @@ use Carp qw(croak);
 use Email::Address;
 use Net::SMTP::SSL;
 
-our $VERSION = '0.31';
+our $VERSION = '0.32';
 
 sub is_available {
     my ( $class, %args ) = @_;
