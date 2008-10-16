@@ -5,7 +5,7 @@ use Carp qw(croak);
 use Email::Address;
 use Net::SMTP::SSL;
 
-our $VERSION = '0.32';
+our $VERSION = '0.33';
 
 sub is_available {
     my ( $class, %args ) = @_;
@@ -134,6 +134,15 @@ Email::Simple object and their only parameter, and return email addresses.
 =head1 SEE ALSO
 
 L<Email::Send>
+
+=head1 COPYRIGHT
+
+Copyright (C) 2008, Leon Brocard
+
+=head1 LICENSE
+
+This module is free software; you can redistribute it or modify it
+under the same terms as Perl itself.
 
 =cut
 
